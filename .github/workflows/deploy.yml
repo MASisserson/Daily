@@ -19,7 +19,7 @@ jobs:
         KEY: ${{ secrets.SSHKEY }}
       with:
         source: "."
-        target: "~/system_design_todos"
+        target: "/var/www/contacts.reroot.art"
 
     - name: Executing remote command
       uses: appleboy/ssh-action@master
